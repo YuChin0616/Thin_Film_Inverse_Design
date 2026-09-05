@@ -49,3 +49,37 @@ Target Transmittance Spectrum
             ↓
  Continuous Thickness Refinement
 ```
+
+## Repository Structure
+
+- `simulation.py` — Transfer Matrix Method simulation
+
+- `generate_fixed_dataset.py` — Fixed 10-layer dataset generation
+
+- `generate_variable_dataset.py` — Variable 2–10-layer dataset generation
+
+- `train_fixed.ipynb` — Fixed-layer model training
+
+- `train_variable.ipynb` — Variable-layer model training
+
+- `test_fixed.ipynb` — Fixed-layer evaluation
+
+- `test_variable.ipynb` — Variable-layer evaluation
+
+## Usage
+
+### 1. Generate Dataset
+
+Run the corresponding dataset generation script.
+
+### 2. Train Model
+
+Set the dataset path in the training notebook:
+
+DATA_DIR = "path/to/dataset"
+
+### 3. Test Model
+
+Set the trained model path:
+
+MODEL_PATH = "path/to/model.pth"
