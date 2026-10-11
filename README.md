@@ -144,8 +144,15 @@ $$
 其 target function 為穿透光譜的 **Mean Absolute Error（MAE）**：
 
 $$
-
-\mathrm{MAE} = \frac{1}{N_{\lambda}} \sum_{k=1}^{N_{\lambda}} \left| T_{\mathrm{pred}}(\lambda_k) - T_{\mathrm{target}}(\lambda_k) \right|
+\mathrm{MAE}
+=
+\frac{1}{N_{\lambda}}
+\sum_{k=1}^{N_{\lambda}}
+\left|
+T_{\mathrm{pred}}(\lambda_k)
+-
+T_{\mathrm{target}}(\lambda_k)
+\right|
 $$
 
 ---
